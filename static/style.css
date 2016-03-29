@@ -1,0 +1,183 @@
+;/*The first sets of rules are always for your small screen
+*/
+/*Put your mobile CSS here
+*/
+body {
+	margin: 1%;
+	padding: 1%;
+	background-color: #DCDCDC;
+	font-size: 100%;
+	min-width: 100%;
+}
+
+header h1 {
+	text-align: center;
+	font-family: Georgia;
+	c/*olor: blue;*/
+}
+
+
+nav li{
+	border: 1px solid black;
+	border-radius: 7px;
+	background-color: #FFFFFF;
+	display: block;
+}
+
+img{
+	display: block;
+	width: 100%;
+	/*height: 250px;*/
+}
+
+.container {
+	
+}
+.personal {
+	display: none;
+	max-width: 100%;
+	height: auto;
+}
+
+.Twins {
+	border: solid 2px black;
+	display: inline-block;
+	width: 50%;
+	float: right;
+}
+
+.hobbies h3 {
+	border: solid 1px black;
+	display: inline-block;
+	padding: 2%;
+	margin: 1%;
+	width: 50%;
+}
+
+.hobbies p {
+	width: 50%;
+	/*padding: 2%;
+	margin: 1%;*/
+}
+
+.jumbotron img {
+	background-image: (static/library.jpg)
+	background-size: cover;
+	height: 100%;
+}
+
+
+
+.project1 {
+	border: solid black 2px;
+	display: block;
+	margin: 1%;
+	padding: 2%;
+	background-color: white;
+	
+}
+
+.IMA {
+	border: 1px solid black;
+	display: block;
+	margin: 1%;
+	padding: 2%;
+	}
+
+.hoover {
+	border: 2px solid black;
+	display: block;
+	margin: 1%;
+	padding: 2%;
+	/*max-width: 350px;
+	max-height: 250px;*/
+}
+
+.project2 {
+	border: solid black 2px;
+	display: block;
+	margin: 1%;
+	/*padding: 2%;*/
+	background-color: white;
+}
+
+.EAD {
+	border: solid black 2px;
+}
+
+.project3 {
+	border: solid black 2px;
+	display: block;
+}
+
+footer {
+	border: solid 1px black;
+	text-align: center;
+}
+
+
+@media screen and (min-width: 1000px){
+	.project1 {
+		display: inline-block;
+		width: 50%;
+		margin: 4%;
+		padding: 2%;
+	}
+
+	.IMA {
+		display: inline-block;
+		margin: 1%;
+		padding: 2%;
+		/*height: 40%;*/
+		width: 40%;
+		float: right;
+	}
+
+
+.project2{
+	border: solid 2px black;
+	display: inline-block;
+	padding: 2%;
+	margin: 4%;
+	width: 50%;
+
+}
+
+.hoover{
+	display: inline-block;
+	margin: 1%;
+	padding: 2%;
+	width: 40%;
+	float: right;
+}
+
+.EAD {
+	display: inline-block;
+	float: right;
+	width: 40%;
+}
+
+.project3 {
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+}
+
+
+
+/*#read {
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100;
+	min-height: 100;
+	opacity: 0.2;
+}
+
+.home 
+
+.resume
+
+.about
+
