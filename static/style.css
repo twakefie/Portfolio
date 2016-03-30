@@ -31,7 +31,7 @@ img{
 }
 
 .container {
-	
+
 }
 .personal {
 	display: none;
@@ -118,16 +118,16 @@ footer {
 
 @media screen and (min-width: 1000px){
 	.project1 {
-		display: inline-block;
-		width: 50%;
-		margin: 4%;
+		/*display: inline-block;
+		width: 50%;*/
+		margin: 10%;
 		padding: 2%;
 	}
 
 	.IMA {
 		display: inline-block;
 		margin: 1%;
-		padding: 2%;
+		/*padding: 5%;*/
 		/*height: 40%;*/
 		width: 40%;
 		float: right;
