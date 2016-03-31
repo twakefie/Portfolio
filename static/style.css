@@ -60,9 +60,8 @@ img{
 	margin: 1%;*/
 }
 
-.jumbotron img {
-	background-image: (static/library.jpg)
-	background-size: cover;
+.jumbotron {
+	background-color: #67ACEA;
 	height: 100%;
 }
 
@@ -110,6 +109,15 @@ img{
 	display: block;
 }
 
+.col-md-5 {
+	border: 2px solid black;
+}
+
+.spacing {
+	margin: 10px;
+	padding: 10px;
+}
+
 footer {
 	border: solid 1px black;
 	text-align: center;
@@ -117,12 +125,17 @@ footer {
 
 
 @media screen and (min-width: 1000px){
-	.project1 {
+/*	.col-md-7 {
 		/*display: inline-block;
 		width: 50%;*/
-		margin: 10%;
+		/*margin: 2%;
 		padding: 2%;
-	}
+	}*/
+
+	/*.col-md-5 {
+		margin: 1%;
+		padding: 1%;
+	}*/
 
 	.IMA {
 		display: inline-block;
