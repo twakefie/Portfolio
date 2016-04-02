@@ -6,17 +6,32 @@
 body {
 	margin: 1%;
 	padding: 1%;
-	background-color: red;
+	background-color: #4CB5F5;
 	font-size: 100%;
 	min-width: 100%;
 }
 
+.body {
+	background-image: "static/oldpaper.jpg";
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/*body {
+	background-repeat: no-repeat;
+}*/
+
 header h1 {
 	text-align: center;
 	font-family: Georgia;
+	font-size: 100px;
 	
 }
 
+header {
+	background-color: #B3C100;
+	margin: -20px;
+}
 
 nav li{
 	border: 1px solid black;
@@ -37,69 +52,79 @@ p {
 	margin-left: 10px;
 }
 
-/*.whole {
-	background-color: #AEBD38;
-}*/
+.Description {
+	margin-top: 30px;
+}
 
-/*.personal {
-	display: none;
-	max-width: 100%;
-	height: auto;
-}*/
+.Carousel {
+	margin-top: 30px;
+}
 
-/*.Twins {
-	border: solid 2px black;
-	display: inline-block;
-	width: 50%;
-	float: right;
-}*/
 
-/*.hobbies h3 {
-	border: solid 1px black;
-	display: inline-block;
-	padding: 2%;
-	margin: 1%;
-	width: 50%;
-}*/
-
-/*.hobbies p {
-	width: 50%;
-	padding: 2%;
-	margin: 1%;
-}*/
 
 .jumbotron {
 	background-color: #67ACEA;
 	height: 100%;
 }
 
+.clements {
+	/*border: 1px solid black;*/
+	margin: 2%;
+}
 
+.HBA {
+	/*border: 1px solid black;*/
+	margin: 2%;
+}
 
-.project1 {
+.CCA {
+	margin: 2%;
+}
+
+.bonanza {
+	margin: 2%;
+}
+
+.history {
+	margin: 2%;
+}
+
+.capitol {
+	margin: 2%;
+}
+
+/*.project1 {
 	border: solid black 2px;
 	display: block;
 	margin: 1%;
 	padding: 2%;
 	background-color: white;
-	
-}
+	*/
+/*}*/
 
-.IMA {
+/*.IMA {
 	border: 1px solid black;
 	display: block;
 	margin: 1%;
 	padding: 2%;
-	}
+	}*/
 
-.hoover {
+/*.hoover {
 	border: 2px solid black;
 	display: block;
 	margin: 1%;
-	padding: 2%;
+	padding: 2%;*/
 	/*max-width: 350px;
 	max-height: 250px;*/
+/*}*/
+
+.grad {
+	float: right;
 }
 
+.resume {
+	font-family: Georgia;
+}
 /*.project2 {
 	border: solid black 2px;
 	display: block;
@@ -117,14 +142,29 @@ p {
 	display: block;
 }*/
 
+
+body#h a#home, body#ab a#about, body#r a#resume, body#proj a#projects, body#ph a#photos {
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+body {
+	background-image: "static/oldpaper.jpg";
+}
+
+
 .col-md-5 {
 	border: 4px solid black;
+	font-family: Georgia;
 
 }
 
 .col-md-6 {
 	border: 1px solid black;
 	margin: 4%;
+	background-color: white;
 	}
 
 .spacing {
@@ -142,8 +182,23 @@ p {
 
 footer {
 	border: solid 1px black;
-	text-align: left;
+	text-align: center;
 }
+
+.big {
+	display: none;
+}
+
+/*.navbar-header {
+	background-color: blue;
+	text-decoration: bold;
+}*/
+
+.burger {
+	color: red;
+	display: block ;
+}
+
 
 
 @media screen and (min-width: 1000px){
@@ -151,6 +206,7 @@ footer {
 	.col-md-6 {
 		border: none;
 		font-size: 124%;
+		font-family: Georgia;
 	}
 
 	.intro {
@@ -158,6 +214,14 @@ footer {
 	}
 
 	.intro1 {
+		display: block;
+	}
+
+	.burger {
+		display: none;
+	}
+
+	.big {
 		display: block;
 	}
 
@@ -226,9 +290,4 @@ footer {
 	opacity: 0.2;
 }
 
-.home 
-
-.resume
-
-.about
 
