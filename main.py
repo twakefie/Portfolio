@@ -63,7 +63,6 @@ app = webapp2.WSGIApplication([
     ('/resume.html', resumeHandler),
     ('/projects.html', projectHandler),
     ('/photos.html', photosHandler),
-    # ('/form.html'), formHandler)
     
 ], debug=True)
 

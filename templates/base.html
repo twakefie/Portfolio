@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<body background="static/oldpaper.jpg" width:"1000px" height="1000px">
+<!-- <div>
+<body background="static/oldpaper.jpg">
+</div> -->
 
-<div class="whole">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Tessa Wakefield</title>
 
 
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="stylesheet" type="text/css" href="static/style.css">
+	<link rel="stylesheet" type="text/css" href="static/style.css">
 <!--the above thing is your stylesheet -->
 
 </head>
@@ -27,11 +32,19 @@
 
 <body>
 
+	<!-- <img src="static/oldpaper.jpg"> -->
+
 	<header>
 		<h1>Tessa Wakefield</h1>
+
+		<!-- <div class="SI">	
+		<img src="static/umsi.png">
+		</div> -->
 			
 
 		<!--<p>{{title}}</p>-->
+		
+
 		<div class="big">
 		<nav>
 			<ul class="nav nav-pills nav-justified">
@@ -44,34 +57,34 @@
 		</nav>
 	</div>		
 
-<div class="burger">
-<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+	<div class="burger">
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
 			<div class="container">
-         <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
+         		<div class="navbar-header">
+      					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				        	<span class="sr-only">Toggle navigation</span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				      	  	<span class="icon-bar"></span>
+      					</button>
+    			</div>
+
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li><a href="home.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="resume.html">Resume</a></li>
-					<li><a href="projects.html">Projects</a></li>
-					<li><a href="photos.html">Photos</a></li>
-				</ul>
+    			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="home.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="resume.html">Resume</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="photos.html">Photos</a></li>
+					</ul>
+				</div>
 			</div>
 		</nav>
-  </div>
-	</header>
-</div>
-</div>
-
+  	  </div>
+</header>
+	
 
 
 	{%block content %}
@@ -86,12 +99,21 @@
 	
 </body>
 
+
+<body id="h"></body>
+<body id="ab"></body>
+<body id="r"></body>
+<body id="ph"></body>
+<body id="proj"></body>
+
 <footer>
 		<p>Copyright &copy; Tessa Wakefield</p>
 		<p>Contact information: social media icons</p>
-		<i class="fa fa-linkedin-square"><a href="https://www.linkedin.com/in/tessa-wakefield-75985285?trk=nav_responsive_tab_profile"></a></i>
+		<div class="social">
+			<a href="https://www.linkedin.com/in/tessa-wakefield-75985285?trk=nav_responsive_tab_profile">
+				<i class="fa fa-linkedin-square"></i>Linkedin</a>
+	</div>
 		<!-- <i class="fa fa-facebook-square"><a href="https://www.facebook.com/"><a/></i> -->
 	</footer>
-</div>
 
 </html>
