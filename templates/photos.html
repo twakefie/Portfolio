@@ -1,141 +1,107 @@
 {% extends "templates/base.html" %}
 {% block content %}
 
-<body id="ph">
-
+<!-- <body id="ph">
+ -->
 	<div class="Description">
-	<h4>What I value most in my life are my relationships with my friends and family. These images are a sample of the people who are a major part of my life.</h4></div>
+	<h3><b>What I value most in my life are my relationships with my friends and family. These images are a sample of some of the people who are a major part of my life.</b></h3></div>
 
-<div class="container">
-	<div class="paige">
-		<h2>My little sister</h2></div>
-		<img src="static/paige.jpg"
-		class="img-responsive img-thumbnail">
-</div>
 
-<!-- <div class="container">
-	<div class="cord">
-		<h2>xmas</h2></div>
-		<img src="static/christmas.jpg"
-		class="img-responsive img-thumbnail">
-</div> -->
+<div class="pictures">
 
-<div class="container">
-	<div class="cousins">
-		<h2>My cousins</h2></div>
-		<img src="static/cousins.jpg"
-		class="img-responsive img-thumbnail">
-</div>
 
-<div class="container">
-	<div class="friends">
-		<h2>high school</h2></div>
-		<img src="static/friends.jpg"
-		class="img-responsive img-thumbnail">
-</div>
 
-<div class="container">
-	<div class="sam">
-		<h2>My best friend</h2></div>
-		<img src="static/sam.jpg"
-		class="img-responsive img-thumbnail">
+<!-- The big difference I made with this code was deciding to not use the grid system. Instead, I chose to define a container class, which, for me, was easier to understand and work with -->
+ 
+ <div class="container">
+    <div class="hovereffect">
+        <img class="img-responsive" src="static/paige.jpg" alt="Paige">
+        <div class="overlay">
+           <h2>Me and my little sister, Paige!</h2>
+        </div>
+    </div>
 </div>
 
 
-<div class="container">
-	<div class="mama">
-		<h2>mom</h2></div>
-		<img src="static/mom.jpg"
-		class="img-responsive img-thumbnail">
-</div>
-
-<div class="container">
-	<div class="dad">
-		<h2>dad</h2></div>
-		<img src="static/dad.jpg"
-		class="img-responsive img-thumbnail">
+ <div class="container">
+    <div class="hovereffect">
+        <img class="img-responsive" src="static/cousins.jpg" alt="Cousins">
+        <div class="overlay">
+           <h2>My cousins, Grandma, and I on the 4th of July</h2>
+        </div>
+    </div>
 </div>
 
 
+ <div class="container">
+    <div class="hovereffect">
+        <img class="img-responsive" src="static/friends.jpg" alt="High School">
+        <div class="overlay">
+           <h2>I've been friends with these girls for over 10 years!</h2>
+        </div>
+    </div>
+</div>
 
+ <div class="container">
+    <div class="hovereffect">
+        <img class="img-responsive" src="static/sam.jpg" alt="Sam">
+        <div class="overlay">
+           <h2>Me and my best friend, Sam!</h2>
+        </div>
+    </div>
+</div>
 
+ <div class="container">
+    <div class="hovereffect">
+        <img class="img-responsive" src="static/mom.jpg" alt="Mama">
+        <div class="overlay">
+           <h2>My mama :) </h2>
+        </div>
+    </div>
+</div>
 
-<div class="container">
-	<div class="wakefield">
-		<h2>wakefields</h2></div>
-		<img src="static/wakefield.jpg"
-		class="img-responsive img-thumbnail">
+ <div class="container">
+    <div class="hovereffect">
+        <img class="img-responsive" src="static/dad.jpg" alt="Dad">
+        <div class="overlay">
+           <h2>My dad and I at a Washington Nationals game, when I toured George Washington University</h2>
+        </div>
+    </div>
 </div>
 
 
 
-<!-- 
-	<div class="container">
-		<img src="static/paige.jpg"
-		class="img-responsive img-thumbnail"> -->
+ <div class="container">
+    <div class="hovereffect">
+        <img class="img-responsive" src="static/wakefield.jpg" alt="Wakefields">
+        <div class="overlay">
+           <h2>A few Wakefield cousins, then and now!</h2>
+        </div>
+    </div>
+</div>
+
+ <div class="container">
+    <div class="hovereffect">
+        <img class="img-responsive" src="static/sisters.jpg" alt="Moving">
+        <div class="overlay">
+           <h2>Me and Paige when I moved to Ann Arbor</h2>
+        </div>
+    </div>
+</div>
 
 
-		<!-- <img src="static/cousins.jpg"
-		class="img-responsive img-thumbnail"> -->
+ <div class="container">
+    <div class="hovereffect">
+        <img class="img-responsive" src="static/elise.JPG" alt="Elise">
+        <div class="overlay">
+           <h2>Me and my buddy Elise!!</h2>
+        </div>
+    </div>
+</div>
 
-		<!-- <img src="static/sam.jpg"
-		class="img-responsive img-thumbnail"> -->
-
-		<!-- <img src="static/mom.jpg"
-		class="img-responsive img-thumbnail"> -->
-
-		<!-- <img src="static/dad.jpg"
-		class="img-responsive img-thumbnail"> -->
-
-		<!-- <img src="static/friends.jpg"
-		class="img-responsive img-thumbnail"> -->
-
-		<!-- <img src="static/christmas.jpg"
-		class="img-responsive img-thumbnail"> -->
-
-		<!-- <img src="static/cousins.jpg"
-		class="img-responsive img-thumbnail"> -->
-
-		<!-- <img src="static/wakefield.jpg"
-		class="img-responsive img-thumbnail"> -->
-
-	<!-- </div> -->
+<!-- </body> -->
 
 
-
-
-
-
-	<!-- <div id="container">
-		<div class="row">
-		<img src="static/paige.jpg"
-		class="col-sm-6 col-md-4 col-lg-2 img-thumbnail">
-
-		<img src="static/cousins.jpg"
-		class="col-sm-6 col-md-4 col-lg-2 img-thumbnail">
-
-		<img src="static/sam.jpg"
-		class="col-sm-6 col-md-4 col-lg-2 img-thumbnail">
-
-		<img src="static/mom.jpg"
-		class="col-sm-6 col-md-4 col-lg-2 img-thumbnail">
-
-		<img src="static/dad.jpg"
-		class="col-sm-6 col-md-4 col-lg-2 img-thumbnail">
-
-		<img src="static/friends.jpg"
-		class="col-sm-6 col-md-4 col-lg-2 img-thumbnail">
-
-		<img src="static/christmas.jpg"
-		class="col-sm-6 col-md-4 col-lg-2 img-thumbnail">
-
-		<img src="static/cousins.jpg"
-		class="col-sm-6 col-md-4 col-lg-2 img-thumbnail">
-
-		<img src="static/wakefield.jpg"
-		class="col-sm-6 col-md-4 col-lg-2 img-thumbnail">
-
-	</div> -->
 
 
 
