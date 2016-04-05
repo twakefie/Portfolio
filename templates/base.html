@@ -58,7 +58,7 @@
 	</div>		
 
 	<div class="burger">
-		<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+		<nav class="navbar navbar-inverse navbar-static-top">
 			<div class="container">
          		<div class="navbar-header">
       					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -91,29 +91,41 @@
 	I should never see this content. It should be replaced.
 	{% endblock %}
 
-
+<!-- <body id="h">
+<body id="ab">
+<body id="r">
+<body id="proj">
+<body id="ph">	 -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+	<script>
+	$(function(){
+	  $('a').each(function() {
+	    if ($(this).prop('href') == window.location.href) {
+	      $(this).addClass('current');
+	    }
+	  });
+	});
+	</script>
+
+	<footer>
+			<p>Copyright &copy; Tessa Wakefield</p>
+			<p>Contact information: social media icons</p>
+			<div class="social">
+				<a href="https://www.linkedin.com/in/tessa-wakefield-75985285?trk=nav_responsive_tab_profile">
+					<i class="fa fa-linkedin-square"></i>Linkedin</a>
+			</div>
+			<!-- <i class="fa fa-facebook-square"><a href="https://www.facebook.com/"><a/></i> -->
+	</footer>
 	
 </body>
 
 
-<body id="h"></body>
-<body id="ab"></body>
-<body id="r"></body>
-<body id="ph"></body>
-<body id="proj"></body>
 
-<footer>
-		<p>Copyright &copy; Tessa Wakefield</p>
-		<p>Contact information: social media icons</p>
-		<div class="social">
-			<a href="https://www.linkedin.com/in/tessa-wakefield-75985285?trk=nav_responsive_tab_profile">
-				<i class="fa fa-linkedin-square"></i>Linkedin</a>
-	</div>
-		<!-- <i class="fa fa-facebook-square"><a href="https://www.facebook.com/"><a/></i> -->
-	</footer>
+	
 
 </html>

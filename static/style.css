@@ -20,6 +20,12 @@ body {
 }
 
 
+a.current {
+  text-transform:uppercase;
+  color: black;
+  font-weight: bold;
+}
+
 
 header h1 {
 	text-align: center;
@@ -54,7 +60,12 @@ p {
 }
 
 
-
+.hovereffect .overlay h2 {
+	font-family: Georgia, Times, Arial;
+	font-weight: bold;
+	text-align: center;
+	padding: 2%;
+}
 
 
 .Description {
@@ -124,6 +135,7 @@ p {
 	font-family: Georgia, Times, Arial;
 	padding: 2%;
 	font-size: 25px;
+	display: block;
 }
 /*.project2 {
 	border: solid black 2px;
@@ -149,24 +161,14 @@ p {
 
 
 
-body#h a#home, body#ab a#about, body#r a#resume, body#proj a#projects, body#ph a#photos {
-	color: black;
+
+/*
+#active a {
 	text-transform: uppercase;
-	font-weight: bold;
-}
-
-
-body {
-	background-image: "static/oldpaper.jpg";
-}
-
-
-/*.Education {
-	display: inline-block;
-	width: 60%;
+	color: black;
 }*/
 
-.Education {
+.col-md-7 {
 	/*margin: 2%;*/
 	font-size: 25px;
 	display: inline-block;
@@ -180,6 +182,10 @@ body {
 	font-family: Georgia, Times, Arial;
 }
 
+.col-md-7 {
+	font-family: Georgia, Times, Arial;
+}
+
 .col-md-7 h3 {
 	font-family: Georgia, Times, Arial;
 	text-transform: uppercase;
@@ -190,6 +196,8 @@ body {
 	font-family: Georgia, Times, Arial;
 
 }
+
+
 
 .col-md-6 {
 	border: 1px solid black;
@@ -214,6 +222,7 @@ body {
 	font-family: Georgia, Times, Arial;
 	padding: 2%;
 	font-size: 20px;
+	font-style: italic;
 }
 
 footer {
@@ -221,6 +230,8 @@ footer {
 	text-align: center;
 	background-color: #375E97;
 	color: white;
+	font-family: Georgia, Times, Arial;
+	clear:both;
 }
 
 .big {
@@ -228,13 +239,6 @@ footer {
 }
 
 
-.thesis {
-	display: none;
-}
-
-.resumeimg {
-	display: none;
-}
 
 
 .burger {
@@ -260,7 +264,7 @@ footer {
 }
 
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 800px) {
 	.navbar-static-top .navbar-collapse {
 		padding-right: 6px;
 		padding-left: 120px;
@@ -276,6 +280,10 @@ footer {
 
 	.intro {
 		display: inline-block;
+	}
+
+	.col-md-4 {
+		display: none;
 	}
 }
 
@@ -323,20 +331,14 @@ footer {
 		font-size: 45px;
 	}
 
-	.resumeimg {
-	/*display: block;
-	border: 1px solid black;
-	position: absolute;*/
-	display: inline-block;
-	width: 45%;
-	float: right;
-	padding-right: 2%;
-}
 
-.thesis {
-	display: 45%;
-	float: right;
-}
+	.col-md-4 {
+		display: inline-block;
+		float: right;
+		padding-bottom: 2%;
+		margin: 2.5%;
+		position: absolute;
+	}
 
 
 
@@ -355,6 +357,7 @@ footer {
 		height:100%;
 		position:absolute;
 		overflow:hidden;
+		font-family: Georgia, Times, Arial;
 		top:0;
 		left:0;
 		opacity:0;
